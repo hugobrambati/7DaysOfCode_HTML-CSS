@@ -14,7 +14,6 @@
 }
 
 body{
-  height: 100vh;
   background-color: #ffffff;
 }
 
@@ -97,7 +96,7 @@ nav{
   text-align: center;
 }
 
-.sobre h1{
+.secao1__texto{
   font-family:var(--fonttexto);
   font-weight: 600;
   font-size: 3em;
@@ -114,4 +113,37 @@ nav{
   color: var(--cortexto);
   text-align: center;
   padding-top: 12px;
+}
+
+.metricas-container{
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 288px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.metricas-container div{
+  padding-bottom: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.metricas-container div h1{
+  color: var(--cor_main);
+  font-family: var(--fonttexto);
+  font-size: 600;
+  font-weight: 700;
+}
+
+.metricas-container div h2{
+  color: #101828;
+  font-family: var(--fonttexto);
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+.metricas-container div p{
+  font: 400px 16px var(--fonttexto);
+  color: var(--cortexto);
 }

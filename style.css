@@ -85,6 +85,13 @@ body{
   padding: 96px 0;
 }
 
+.secao1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6em;
+}
+
 .secao1__primeiro__paragrafo{
   font-family:var(--fonttexto);
   font-weight: 600;
@@ -108,17 +115,15 @@ body{
   font-weight: 400;
   font-size: 1.25em;
   color: var(--cortexto);
-  text-align: center;
   padding-top: 12px;
 }
 
 .metricas-container{
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  width: 1440px;
-  padding-left: 32px;
-  padding-right: 32px;
+  
 }
 .metricas-container div{
   padding-bottom: 64px;
@@ -143,4 +148,36 @@ body{
 .metricas-container div p{
   font: 400px 16px var(--fonttexto);
   color: var(--cortexto);
+}
+
+.vaga{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6em;
+}
+
+.vaga span{
+  color: var(--cor_main);
+  font-size: 0.87em;
+  font-family: var(--fonttexto);
+  font-weight: 600;
+  background-color: ;
+}
+
+.vaga h1{
+  color: #101828;
+  font-size: 2.25em;
+  font-weight: 600;
+  padding: 1em;
+  font-family: var(--fonttexto);
+}
+
+.vaga p{
+  color: var(--cortexto);
+  font-size: 1.25em;
+  font-family: var(--fonttexto);
+  font-weight: 400;
+  padding-bottom: 2em;
 }

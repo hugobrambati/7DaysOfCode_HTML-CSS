@@ -1,29 +1,12 @@
-
-
-
-
-.cabecalho_conatiner{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 2em;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.lista_nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2.5em;
-  list-style-type: none;
-}
+.cabecalho{
+  display: flex;}
+  
 
-.branco{
-  width: 8.88em;
-  height: 2em;
-}
 
-.lista_nav a{
-
-  text-decoration: none;
-}
 
